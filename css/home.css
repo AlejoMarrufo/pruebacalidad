@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ 
+ body {
+ background-image: url(../img/5.jpg);
+ background-position: center;
+ }
+ 
+ .form-reg{
+     width: 800px;
+     background: #24303c;
+     padding: 60px;
+     margin: auto;
+     margin-top: 5px;
+     border-radius: 4px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: white;
+     box-shadow: 7px 13px 37px black;
+     align-items: center;
+ }
+ .separador{
+     height: 20px;
+     clear: both;
+ }
+ 
+.main img{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 10px;
+    float: center;
+}
+
+img{
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+ .form-reg h3{
+     font-size: 30px;
+     margin-bottom: 10px;
+     text-align: center;
+ }
+ 
+ .form-reg h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.enum1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    float: left;
+}
+.enum2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    float:right;
+}
+
+/*Seccion de Barra de Navegacion*/
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    background: #24303c;
+}
+/*Navegacion NAVIGATOR*/
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-brand{
+    width: 70px;
+}
+ /*Navegacion Izq Left*/
+ .nav-main ul{
+     display: flex;
+ }
+ .nav-main ul li{
+     padding: 10px;
+ }
+ .nav-mainul li a{
+     padding: 2px;
+ }
+ .nav-main ul li a:hover{
+     border-bottom: 2px solid #ffffff;
+ }
+ .nav-main ul.nav-menu{
+     flex: 1;
+     margin-left: 20px;
+ }
+
+/*Fooder*/
+ .fooder{
+    background: #2f3640;
+    color: #616161;
+    font-family: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}

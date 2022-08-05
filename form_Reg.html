@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head> 
+        <meta chatset = "UTF-8">
+        <meta name = "viewport" content="width=devise-width, initial-scaled=1.0">
+        <meta http-equiv="X-AU-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="css/FormReg.css">
+        <title>Registro Usuario</title>
+    </head>
+
+    <body>         
+        <form class="form-reg" id="registroUsuario" method="post" action="frm_Login.html">
+            <h4 id="msnRegistro">INGRESE SUS DATOS</h4>
+            <h3>Registro Datos de Usuario</h3>
+            <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre" required>
+            <input class="controls" type="text" name="apellido" id="apellidos" placeholder="Ingrese su Apellido" required>
+            <input class="controls" type="text" name="pais" id="pais" placeholder="Ingrese su Pais">
+            <input class="controls" type="text" name="telefono" id="telefono" placeholder="Ingrese su Numero Telefonico">            
+            <br>
+            <hr>  
+            <br>                
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo de Usuario" required>
+            <div class="ContPass">
+                <span class="icon" id="Eye"><i class="fa-solid fa-eye-slash"></i></span>
+                <input class="controls" type="password" name="password" id="password" placeholder="Ingrese su Password" required>
+            </div>
+            <div class="condic">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                    <label class="form-check-label" for="gridCheck">He leído y acepto las <a href="#">Condiciones de uso</a>.</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                    <label class="form-check-label" for="gridCheck">He leído y acepto las <a href="#">Política de privacidad</a>.</label>
+                </div>                
+            </div>
+            <input type="hidden" name="operacion" value="registro">
+            <p><a href="frm_Login.html" class="registro"><input class="boton" type="submit" value="Registrarme"></a>
+            <p>Ya tengo Cuenta, <a href="frm_Login.html">Acceder</a></p>
+        </form>          
+    </body>
+</html>
